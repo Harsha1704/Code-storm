@@ -1,0 +1,71 @@
+.sorting-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; 
+}
+
+.thoughts-list {
+  padding: 20px; 
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px; 
+}
+
+.thought-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px auto;
+  width: 600px;
+  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .thought-content {
+    h2 {
+      margin-bottom: 10px; 
+    }
+
+    h3 {
+      margin: 0;
+      color: #333;
+    }
+
+    p {
+      margin: 0.5rem 0;
+      color: #555; 
+    }
+
+    span {
+      font-size: 0.9rem;
+      color: #777; 
+    }
+  }
+}
+
+
+.sort-button {
+  
+  margin-right:10px ;
+  padding: 10px 20px; 
+  font-size: 1rem; 
+  font-weight: bold; 
+  color: #fff;
+  background-color: #4caf50; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  &:hover {
+    background-color: #388e3c; 
+  }
+}
